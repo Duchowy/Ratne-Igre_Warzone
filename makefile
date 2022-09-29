@@ -1,6 +1,6 @@
-SRC = main.cpp unit.cpp common.cpp manage.cpp
+SRC = main.cpp unit.cpp common.cpp manage.cpp squadrons.cpp
 DEPS = $(addprefix src/,$(SRC))
-INCL = main.hpp unit.hpp common.hpp manage.hpp
+INCL = main.hpp unit.hpp common.hpp manage.hpp squadrons.hpp
 LIB = -lconfig++ -fopenmp -lsfml-graphics-s-d -lsfml-window-s-d -lsfml-system-s-d -lopengl32 -lgdi32 -lwinmm -lfreetype -lm
 LIB_PATH = -I ./deps/include -L ./deps/lib
 OBJ = $(SRC:.cpp=.o)

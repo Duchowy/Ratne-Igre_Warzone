@@ -4,7 +4,7 @@
 
 enum WeaponType{CANNON,AUTOCANNON,MG,ATGM};
 
-enum UnitType{T55,M48,BMP1,LAV25,GVOZDIKA,M109};
+enum UnitType{T55 = 1,M48,BMP1,LAV25,GVOZDIKA,M109};
 
 
 

@@ -37,8 +37,11 @@ const char * Weapon::get_name()
 
 const char * UnitInventory::get_name()
 {
+
+
     switch(this->type)
     {
+        case EMPTY: return "EMPTY"; break;
         case UnitType::T55: return "T-55"; break;
         case UnitType::M48: return "M48"; break;
         case UnitType::BMP1: return "BMP-1"; break;
